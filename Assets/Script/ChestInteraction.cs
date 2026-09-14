@@ -1,9 +1,11 @@
 using UnityEngine;
 
+
 public class ChestInteraction : MonoBehaviour, IInteractable
 {
     Animator Anim;
-    bool opened;
+    
+    static bool opened;
 
     private void Start()
     {
